@@ -17,5 +17,9 @@ public class HelloWorldController {
     public Date getCurrentTime() {
         return new Date();
     }
+
+    @GetMapping("/welcome")
+    public String getWelcomeSite() {
+        return "Welcome to this site";
+    }
 }
-    
