@@ -20,6 +20,6 @@ public class HelloWorldController {
 
     @GetMapping("/welcome")
     public String getWelcomeSite() {
-        return "Welcome to this site";
+        return "Welcome to this site. Added endpoints";
     }
 }
