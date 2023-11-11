@@ -7,8 +7,6 @@ WORKDIR /app
 # Copy the project's files to the container
 COPY . .
 
-# Build the application using Maven
-RUN mvn clean install
 
 FROM node:16
 # Stage 2: Create a lightweight runtime image
