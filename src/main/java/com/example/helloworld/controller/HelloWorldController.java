@@ -24,7 +24,7 @@ public class HelloWorldController {
     }
     
     @GetMapping("/welcome-test")
-    public String getWelcomeSite() {
+    public String getWelcomeSiteTest() {
         return "Welcome to this site. Added endpoints - test";
     }
 }
