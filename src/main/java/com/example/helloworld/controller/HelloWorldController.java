@@ -22,4 +22,9 @@ public class HelloWorldController {
     public String getWelcomeSite() {
         return "Welcome to this site. Added endpoints";
     }
+    
+    @GetMapping("/welcome-test")
+    public String getWelcomeSite() {
+        return "Welcome to this site. Added endpoints - test";
+    }
 }
